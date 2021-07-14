@@ -17,7 +17,7 @@ export default function Home() {
             Delicious food for you
           </h1>
           <div className="mt-7 flex items-center py-5 px-8 bg-gray-100 rounded-full">
-            <img src={Search} alt="search" />
+            <img src={Search} alt="search" className="cursor-pointer" />
             <input
               type="text"
               placeholder="Search"
