@@ -21,7 +21,7 @@ export default function Tabmenu(props) {
   ];
   return (
     <div>
-      <div className="flex overflow-x-auto scrollbar-hide pl-4">
+      <div className="flex overflow-x-auto scrollbar-hide pl-14">
         {menus.map((item, index) => (
           <div
             onClick={() => setactive(index)}

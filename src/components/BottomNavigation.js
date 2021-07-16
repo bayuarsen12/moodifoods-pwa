@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import HomeIcon from "../assets/home-icon";
-import FavoriteIcon from "../assets/favorit-icon";
+import FavouriteIcon from "../assets/favorit-icon";
 import TransactionIcon from "../assets/transaction-icon";
 import ProfileIcon from "../assets/profile-icon";
 
@@ -12,7 +12,7 @@ export default function BottomNavigation() {
       path: "/",
     },
     {
-      icon: <FavoriteIcon active={indexed === 1 ? true : false} />,
+      icon: <FavouriteIcon active={indexed === 1 ? true : false} />,
       path: "/",
     },
     {
@@ -26,7 +26,7 @@ export default function BottomNavigation() {
   ];
   return (
     <div className="flex justify-center w-full">
-      <div className="fixed bottom-0 max-w-md w-full flex items-center justify-between px-8 py-6 bg-white shadow z-50">
+      <div className="fixed bottom-0 max-w-md w-full flex items-center justify-between px-14 py-6 bg-white shadow z-50">
         {navigation.map((item, index) => (
           <div
             onClick={() => {

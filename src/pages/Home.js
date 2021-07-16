@@ -12,8 +12,8 @@ export default function Home() {
     <div>
       <Container>
         <Appbar />
-        <div className="mt-6 p-4 mb-4">
-          <h1 className="text-4xl font-bold font-sans w-7/12">
+        <div className="mt-6 py-4 px-14 mb-4">
+          <h1 className="text-4xl font-bold font-sans w-8/12">
             Delicious food for you
           </h1>
           <div className="mt-7 flex items-center py-5 px-8 bg-gray-100 rounded-full">
@@ -27,10 +27,10 @@ export default function Home() {
         </div>
         <div>
           <Tabmenu active={activeTab} setactive={setactiveTab}>
-            <p className="text-primary cursor-pointer text-right pr-4">
+            <p className="text-primary cursor-pointer text-right pr-14">
               see more
             </p>
-            <div className="flex overflow-x-auto scrollbar-hide pt-16 pb-8 pl-4">
+            <div className="flex overflow-x-auto scrollbar-hide pt-16 pb-8 pl-14">
               <CardProduct />
               <CardProduct />
               <CardProduct />
