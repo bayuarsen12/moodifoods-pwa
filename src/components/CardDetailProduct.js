@@ -33,7 +33,7 @@ export default function CardDetailProduct() {
                 key={index}
                 src={data[index]?.url}
                 alt="products"
-                className="w-60 h-60 rounded-full object-cover shadow-xl"
+                className="w-60 h-60 rounded-full object-cover shadow-xl transition-all"
               />
             );
           }
