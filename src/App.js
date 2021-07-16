@@ -22,7 +22,7 @@ function App(props) {
       <Route exact path="/" component={Home} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/register" component={Register} />
-      <Route exact path="/detail-product" component={DetailProduct} />
+      <Route exact path="/product/:id" component={DetailProduct} />
     </Switch>
   );
 }
