@@ -11,7 +11,7 @@ export default function DetailProduct() {
         <div>
           <CardDetailProduct />
         </div>
-        <div className="px-14 ">
+        <div className="px-6 ">
           <div className="mb-8">
             <h1 className="font-bold">Delivery info</h1>
             <p className="text-gray-400">

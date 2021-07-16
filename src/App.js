@@ -9,7 +9,11 @@ import { useEffect } from "react";
 function App(props) {
   useEffect(() => {
     const user = JSON.parse(localStorage.getItem("user"));
-    if (!user && window.location.pathname !== "/register") {
+    if (
+      !user &&
+      window.location.pathname !== "/register" &&
+      window.location.pathname !== "/login"
+    ) {
       props.history.push("/login");
     }
   });

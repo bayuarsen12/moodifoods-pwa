@@ -40,6 +40,9 @@ export default function FormLogin(props) {
           />
         </div>
       </div>
+      <div>
+        <p className="text-primary cursor-pointer mt-2 ">Lupa password</p>
+      </div>
       <button
         onClick={handleLogin}
         className="h-16 flex items-center justify-center w-full text-center text-white font-bold bg-primary rounded-full mt-20"

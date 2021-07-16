@@ -4,11 +4,11 @@ import Logo from "../assets/logo.svg";
 
 function HeaderLogin(props) {
   return (
-    <div className="rounded-b-3xl px-12 pt-28 bg-white shadow-md">
+    <div className="rounded-b-3xl px-6 pt-16 bg-white shadow-md">
       <div className="flex justify-center mb-8">
         <img src={Logo} alt="logo" className="w-36" />
       </div>
-      <div className="flex justify-between">
+      <div className="flex justify-between px-12">
         <div
           onClick={() => {
             props.history.push("/login");

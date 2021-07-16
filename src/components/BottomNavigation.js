@@ -26,7 +26,7 @@ export default function BottomNavigation() {
   ];
   return (
     <div className="flex justify-center w-full">
-      <div className="fixed bottom-0 max-w-md w-full flex items-center justify-between px-14 py-6 bg-white shadow z-50">
+      <div className="fixed bottom-0 max-w-md w-full flex items-center justify-between px-10 py-6 bg-white shadow z-50">
         {navigation.map((item, index) => (
           <div
             onClick={() => {

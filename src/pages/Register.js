@@ -10,7 +10,7 @@ export default function Register(props) {
     username: "",
     email: "",
     password: "",
-    roles: ["admin"],
+    roles: ["user"],
   });
   const handleText = (value, name) => {
     setformData({ ...formData, [name]: value });
@@ -33,7 +33,7 @@ export default function Register(props) {
     <Container>
       <div>
         <HeaderRegister />
-        <div className="p-12">
+        <div className="p-6">
           <FormRegister
             handleText={handleText}
             formData={formData}

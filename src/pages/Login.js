@@ -31,7 +31,7 @@ export default function Login(props) {
     <Container>
       <div>
         <HeaderLogin />
-        <div className="p-12">
+        <div className="p-6">
           <FormLogin
             handleText={handleText}
             formData={formData}

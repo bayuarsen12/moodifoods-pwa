@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Container>
         <Appbar />
-        <div className="mt-6 py-4 px-14 mb-4">
+        <div className="mt-6 py-4 px-6 mb-4">
           <h1 className="text-4xl font-bold font-sans w-8/12">
             Delicious food for you
           </h1>
@@ -21,16 +21,16 @@ export default function Home() {
             <input
               type="text"
               placeholder="Search"
-              className="ml-4 bg-transparent text-base font-semibold"
+              className="ml-4 bg-transparent w-full text-base font-semibold"
             />
           </div>
         </div>
         <div>
           <Tabmenu active={activeTab} setactive={setactiveTab}>
-            <p className="text-primary cursor-pointer text-right pr-14">
+            <p className="text-primary cursor-pointer text-right pr-6">
               see more
             </p>
-            <div className="flex overflow-x-auto scrollbar-hide pt-16 pb-8 pl-14">
+            <div className="flex overflow-x-auto scrollbar-hide pt-16 pb-8 pl-6">
               <CardProduct />
               <CardProduct />
               <CardProduct />
