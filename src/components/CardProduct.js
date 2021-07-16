@@ -1,8 +1,12 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 
-export default function CardProduct() {
+function CardProduct(props) {
   return (
-    <div className="bg-transparent mr-8">
+    <div
+      onClick={() => props.history.push("/detail-product")}
+      className="bg-transparent mr-8 cursor-pointer"
+    >
       <div className="h-64 w-56 rounded-3xl shadow-2xl flex flex-col items-center">
         <img
           src="https://blog.tokowahab.com/wp-content/uploads/2020/01/Resep-Choco-Lava-Lumer.jpg"
@@ -17,3 +21,5 @@ export default function CardProduct() {
     </div>
   );
 }
+
+export default withRouter(CardProduct);
